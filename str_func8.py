@@ -1,5 +1,5 @@
 def capitalize(s):
-    """комментарий первый"""
+
     result = ""
     capitalize_next = True
 
@@ -17,7 +17,3 @@ def capitalize(s):
             capitalize_next = True
 
     return result
-
-def emphasise(txt):
-    """коментарий четвертого задания"""
-    return ' '.join(w[0].upper()+w[1:].lower() for w in txt.split())
